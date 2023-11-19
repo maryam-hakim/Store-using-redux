@@ -1,0 +1,63 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.product_container{
+  width: 200px;
+  height: max-content;
+  border: 1px solid silver;
+  border-radius: 5px;
+  padding: 10px ;
+  margin: 10px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ 
+
+}
+
+
+
+
+
+.product_container img{
+    width: 140px;
+    height: 140px;
+    display: inline-block;
+}
+
+.product_container h3 , p{
+    padding: 10px;
+}
+
+.product_container a{
+    text-decoration: none;
+    color: rgb(44, 43, 43);
+    margin: 10px;
+}
+
+.product_container a:hover{
+    color: blue;
+}
+
+.buttons .icon{
+    width: 10px;
+    height: 10px;    
+    
+    
+}
+
+.buttons button{
+    border: none;
+    outline: none;
+    background-color: rgb(28, 119, 107);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+}
